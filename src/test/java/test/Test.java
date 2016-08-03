@@ -1,9 +1,9 @@
-package arithmetic;
+package test;
 
 import static org.junit.Assert.*;
+import arithmetic.Arithmetic;
 
-
-public class ArithmeticTest {
+public class Test {
 
 	@org.junit.Test
 	public void AddingTest() {
@@ -38,5 +38,4 @@ public class ArithmeticTest {
 		assertEquals(0, 5,obj.performOperation(25, 5, '/'));
 	}
 	//TODO divide by zero and so on
-
 }
